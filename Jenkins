@@ -9,7 +9,7 @@ pipeline {
         }
         stage('run') {
             steps {
-                 sh 'docker run -it marchdocker'    }
+                 sh 'docker run marchdocker'    }
         }
         stage('Deploy') {
             steps {
